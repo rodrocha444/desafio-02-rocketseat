@@ -27,7 +27,7 @@ Uma aplicação onde o principal objetivo era refatorar uma página para listag
 A aplicação já estava funcional, mas grande parte do seu código estava diretamente no arquivo `App.tsx`. Para resolver isso da melhor forma, era necessário dividir a aplicação em partes(Componentes).
 
 <p align="center">
-  <img align="center" height="300"  src="https://user-images.githubusercontent.com/58188119/171281980-b20c2fc6-752f-4415-b04f-6aaa52100720.gif">
+  <img align="center" height="300"  src="https://user-images.githubusercontent.com/58188119/171500183-02bab4b9-9097-4e41-9152-1da4e81432dc.gif">
 </p>
 
 ## Rodando o Projeto
