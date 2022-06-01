@@ -6,11 +6,11 @@
 ![Top Language](https://img.shields.io/github/languages/top/rodrocha444/desafio-02-rocketseat)
 ![Language Count](https://img.shields.io/github/languages/count/rodrocha444/desafio-02-rocketseat)
 
-Este foi o segundo desafio responsável por colocar em prática o que foi aprendido na Trilha Discover da Rockeseat
+Segundo desafio responsável por colocar em prática o que foi aprendido no programa de especialização Ignite da Rockeseat, mais especificamente na Trilha ReactJS.
 
 ## Resumo
 
-Esse módulo foi responsável pela abordagem de como funcionam as ferramentas:
+Esse módulo foi responsável pela abordagem das mesmas ferramentas do [Desafio 01 Rocketseat](https://github.com/rodrocha444/desafio-01-rocketseat):
   - Webpack
   - Babel
   - Webpack dev server
@@ -18,11 +18,14 @@ Esse módulo foi responsável pela abordagem de como funcionam as ferramentas:
   - Source Maps
   - Fast Refresh
 
-Além de conceintos importantes de **ReactJS** e **Typescript**
+Além disso, foram implementados mais conceitos importantes de **ReactJS** e **Typescript**
 
 ## O Desafio
 
-Nesse desafio, o aluno deveria criar uma aplicação a partir de um [template](https://github.com/rocketseat-education/ignite-template-reactjs-conceitos-do-react) para treinar o que aprendeu até agora no ReactJS. Tratava-se de uma pequena aplicação de atividades a fazer, para treinar um pouco mais sobre manipulação do estado no React.
+Uma aplicação onde o principal objetivo era refatorar uma página para listagem de filmes de acordo com gênero. 
+
+A aplicação já estava funcional, mas grande parte do seu código estava diretamente no arquivo `App.tsx`. Para resolver isso da melhor forma, era necessário dividir a aplicação em partes(Componentes).
+
 <p align="center">
   <img align="center" height="300"  src="https://user-images.githubusercontent.com/58188119/171281980-b20c2fc6-752f-4415-b04f-6aaa52100720.gif">
 </p>
@@ -35,8 +38,11 @@ Primeiro você terá que clonar este repositório e instalar as depêndencias:
 git clone [repository url]
 yarn
 ```
-
-Depois, você deve rodar o Webpack dev server através do script criado:
+Depois, utilizaremos o JSON Server para simular uma API, através do script:
+```
+yarn server
+```
+E por fim, você deve rodar o Webpack dev server através do script criado:
 
 ```
 yarn dev
